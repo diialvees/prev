@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-cidade {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.pesquisa {
+    background: none;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.btn {
+    width: 20px;
+    height: 20px;
+}
+
+.box-media {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.cidade, .temperatura {
+    color: #444;
+    margin: 10px 0;
+}
+
+.box-pequena {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.icone-previsao {
+    width: 40px;
+    height: 40px;
+}
+
+.previsao {
+    color: #666;
+    margin: 0;
+}
+
+.umidade {
+    color: #555;
+    font-size: 14px;
+    margin: 10px 0 0 0;
+}
